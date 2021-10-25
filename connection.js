@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const URL = "mongodb+srv://pg_user:mypguser@rest.nromd.mongodb.net/CRUD_APP?retryWrites=true&w=majority"
+const URL = <your_mongodb_url>
 
 
 const ModelSchema = new mongoose.Schema({
